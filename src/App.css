@@ -1,32 +1,80 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-logo {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+  height: 65vmin;
+  width: 65vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 16s linear;
+  }
 }
 
 .App-link {
-  color: #61dafb;
+  color: rgba(40, 44, 52, 1);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 900;
 }
+.App-link:hover {
+  color: greenyellow;
+}
+
+.navigation-alignment {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav-link {
+  text-decoration: none;
+  color: greenyellow;
+  margin: 2vw 2vh;
+  display: inline;
+  align-items: center;
+  font-weight:600;
+}
+.Nav-link:hover {
+  color:#282c34;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+}
+
+li {
+  align-self: center;
+  list-style-type: none;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  font-weight: 600;
+  color:whitesmoke;
+  text-shadow: 0px -2.5px #282c34;
+}
+
+img {
+  width: 40vw;
+  height: auto;
+  align-self: center;
+}
+
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +82,58 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+body {
+  width: 100wh;
+  height: 90vh;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 1000% 1000%;
+  -webkit-animation: Gradient 7.5s ease infinite;
+  -moz-animation: Gradient 7.5s ease infinite;
+  animation: Gradient 7.5s ease infinite;
+  font-size: calc(10px + 3vmin);
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
   }
 }
