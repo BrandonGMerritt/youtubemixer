@@ -1,10 +1,11 @@
 # ReadMe
 Youtube Channel Mixer is a one stop funnel to your favorite youtube stations that play music nonstop. LoFi Beats, NightRiderFM, etc.
-## Links
-These are the current links loaded for filtering to youtube channels
 
 ## Heroku Deployment
 [YouTube Channel Mixer](https://ytmixer.herokuapp.com/)
+
+## Links
+These are the current links loaded for filtering to youtube channels
 
 [NightRide FM](https://www.youtube.com/watch?v=cZRj9Sk0IPc) | 
 [ChillSynth FM](https://www.youtube.com/watch?v=UedTcufyrHc) | 
