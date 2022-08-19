@@ -7,7 +7,6 @@ export default function App() {
         <div>
         <img src={logo} className="App-logo" alt="logo"/>
         <NavBar/>
-        <h1>Working</h1>
         </div>
   );
 }
